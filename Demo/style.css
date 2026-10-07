@@ -46,10 +46,11 @@ body {
 
 
 #menu-icon {
-    font-size: 3rem;
     color: var(--main-color);
     cursor: pointer;
     display: block;
+    width: 25px;
+    height: 25px;
 }
 
 .navbar {

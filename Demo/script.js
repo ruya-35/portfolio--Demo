@@ -3,14 +3,14 @@ const menuIcon = document.querySelector('#menu-icon');
 const navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
+    menuIcon.classList.toggle('menuIcon');
     navbar.classList.toggle('active');
 };
 
 // Close mobile menu when clicking a nav link
 document.querySelectorAll('.navbar a').forEach(link => {
     link.addEventListener('click', () => {
-        menuIcon.classList.remove('bx-x');
+        menuIcon.classList.remove('menuIcon');
         navbar.classList.remove('active');
     });
 });
