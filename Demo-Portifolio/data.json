@@ -1,0 +1,45 @@
+{
+  "services": [
+    {
+      
+      "title": "Web Development",
+      "description": "Building fast, responsive, and modern websites using HTML, CSS, JavaScript, and modern frameworks."
+    },
+    {
+      
+      "title": "UI/UX Design",
+      "description": "Crafting intuitive user interfaces and wireframes with a focus on user experience and visual appeal."
+    },
+    {
+      
+      "title": "Digital Marketing",
+      "description": "Helping brands grow their online presence, reach their target audience, and optimize digital campaigns."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Campus Care",
+      "description": "Student health services and doctor appointment booking platform.",
+      "image": "./images/campuscare.jpg",
+      "link": "https://campus-care1.netlify.app"
+    },
+    {
+      "title": "Addis Eats",
+      "description": "Modern food ordering and restaurant landing page with delicious visuals.",
+      "image": "./images/burgerHouse.jpg",
+      "link": "https://simplemenu2.netlify.app"
+    },
+    {
+      "title": "Gym Fitness",
+      "description": "Fitness center website featuring workout programs and trainer profiles.",
+      "image": "./images/gym.jpg",
+      "link": "https://www.clever-fit.com/en/?gad_source=1&gad_campaignid=24304873430&gbraid=0AAAABEzg_WZfHjfQT7PR0vILGFxvqVmox&gclid=CjwKCAjw25fWBhAVEiwAMopNjr6MrmzRjjkuTD7u13hS5_w_h1vZ9GdOkwnT_dE5vZ353ED1a4EcuhoCAyoQAvD_BwE"
+    },
+    {
+      "title": "TasteHub",
+      "description": "Food delivery and recipe discovery web application.",
+      "image": "./images/tasetHub.jpg",
+      "link": "https://www.tastehub.io/"
+    }
+  ]
+}
