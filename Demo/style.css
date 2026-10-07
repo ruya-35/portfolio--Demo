@@ -387,63 +387,14 @@ section {
 
 
 @media (min-width: 768px) {
-    .heading {
-        font-size: 4.5rem;
+    .header {
+        padding: 3rem 10%;
     }
 
     .home {
         flex-direction: row;
         justify-content: space-around;
         text-align: left;
-    }
-
-    .home-content {
-        align-items: flex-start;
-    }
-
-    .home-content h1 {
-        font-size: 5rem;
-    }
-
-    .home-image, .about-image {
-        width: 35vw;
-        max-width: 350px;
-    }
-
-    .about {
-        flex-direction: row;
-        text-align: left;
-    }
-
-    .about-content {
-        text-align: left;
-    }
-
-    .services-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .projects-box {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .contact .input-group {
-        flex-direction: row;
-    }
-    .footer .socials img{
-        width: 20px;
-        height: 20px;
-    }
-    .footer .socials{
-        display: flex;
-        font-size: 4rem;
-        gap: 180px;
-    }
-}
-
-@media (min-width: 1024px) {
-    .header {
-        padding: 3rem 10%;
     }
 
     #menu-icon {
@@ -463,7 +414,10 @@ section {
     .navbar a {
         font-size: 1.8rem;
     }
-
+    .about {
+        flex-direction: row;
+        text-align: left;
+    }
     .gradient-btn {
         display: inline-block;
         font-size: 1.6rem;
